@@ -1,8 +1,8 @@
 streamlit==1.40.0
-langchain==0.3.27
-langchain-community==0.3.31
-langchain-google-genai==4.1.2    
-faiss-cpu==1.8.0
+langchain==0.4.10
+langchain-community==0.4.10
+langchain-google-genai==4.1.2      # Now compatible!
+faiss-cpu>=1.9.0
 pypdf==5.1.0
 supabase==2.15.0
 boto3==1.35.0
