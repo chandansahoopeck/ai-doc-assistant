@@ -113,7 +113,7 @@ if st.session_state.vectorstore:
     if question:
         with st.spinner("🤔 Gemini is thinking..."):
             llm = ChatGoogleGenerativeAI(
-                model="gemini-1.5-flash",
+                model="gemini-2.0-flash-001",
                 google_api_key=GOOGLE_API_KEY,
                 temperature=0.3,
                 max_output_tokens=1024
